@@ -22,16 +22,16 @@ P01_login login= new P01_login(Hooks.driver);
 
      @And("user enters valid userid")
      public void valid_ID(){
-        login.userID().sendKeys("mngr452808 ");
+        login.userID().sendKeys("mngr471736");
      }
 
     @And("user enters valid pass")
     public void valid_password(){
-    login.Password().sendKeys("serEhYs ");
+    login.Password().sendKeys("dYzebAd");
     }
     @And("user enters invalid pass")
     public void invalid_password(){
-        login.Password().sendKeys("serE0000 ");
+        login.Password().sendKeys("dYzebAdxcv ");
     }
      @Then("users clicks login")
        public void login_click(){
